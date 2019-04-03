@@ -1,12 +1,25 @@
+/*Sets Background*/
+
+ body {
+background-color:#white;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+/*Body Text Colour*/
 body {
       color: #CD5C5C ;
 }
+
+/*Main Title Settings*/
 h1 {
   text-align: center;
   text-transform: uppercase;
   color: #CD5C5C;
-  background-color: lightpink;
+  background-color: pink;
 }
+/*Designs 2nd title*/
 h2 {
   text-indent: 80px;
   text-align: justify;
@@ -15,4 +28,27 @@ h2 {
 }
 h2.capitalize {
   text-transform: capitalize;
+}
+h5 {
+  text-transform: capitalize;
+  color: white;
+  font-style: oblique;
+}
+
+/*colour of nav-bar*/
+.color-me{
+    color: #CD5C5C;
+}
+
+.carousel {
+  width:640px;
+  height:360px;
+}
+
+h1 {
+  text-indent: 80px;
+}
+
+
+
 }
